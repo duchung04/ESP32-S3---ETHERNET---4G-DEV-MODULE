@@ -1,0 +1,362 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cf7bc5a8-9ab1-40a3-8a09-0f5b8db0a730")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0471edf6-3cef-4558-9563-e6d1e73c67e7")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 82.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6880a682-6d5a-4399-9b94-d2dc89a84a57")
+	)
+	(wire
+		(pts
+			(xy 109.22 41.91) (xy 123.19 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bc2a02-a017-4ab4-a791-c2361878cdea")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 82.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753833c5-18cf-4cad-9546-220632b86f4d")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 82.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a77d41a-0e7f-415d-8f5f-ca8395fa45a1")
+	)
+	(wire
+		(pts
+			(xy 74.93 46.99) (xy 82.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0aca13-8ebd-4f0c-9cc5-44a2dbcab17c")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be99c467-f5ac-4671-a2fc-e0998c13df4a")
+	)
+	(sheet
+		(at 123.19 31.75)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "33ae0a54-6be2-4808-9015-24942437d918")
+		(property "Sheetname" "4G_V1_PRO"
+			(at 123.19 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4G_V1_PRO.kicad_sch"
+			(at 123.19 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD_SIM" input
+			(at 123.19 41.91 180)
+			(uuid "71baae78-82ae-4d18-a2dc-25acef72d0e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD_SIM" input
+			(at 123.19 39.37 180)
+			(uuid "bec90de7-51b1-4308-9008-bc23ba749dbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TDM26268"
+				(path "/cf7bc5a8-9ab1-40a3-8a09-0f5b8db0a730"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 31.75)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "37d6be04-49d7-44dc-a78a-bec111b84f45")
+		(property "Sheetname" "ESP32_S3"
+			(at 82.55 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_S3.kicad_sch"
+			(at 82.55 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IO10" input
+			(at 82.55 46.99 180)
+			(uuid "8f8a881d-7ab6-40bd-ad3f-33640bb5d6cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO11" input
+			(at 82.55 41.91 180)
+			(uuid "e6a5fc28-0811-4c5b-aef7-d6c74475cd96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO12" input
+			(at 82.55 44.45 180)
+			(uuid "79047950-144a-4044-937e-11550635bddd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO13" input
+			(at 82.55 39.37 180)
+			(uuid "ff92a1f3-ae12-4512-becf-b5040e629999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO14" input
+			(at 82.55 36.83 180)
+			(uuid "fe6801e7-6b01-434d-ada4-359e4f3b7d1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD1" input
+			(at 109.22 39.37 0)
+			(uuid "2a4d60b7-892d-41ec-8b04-77be838b4d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD1" input
+			(at 109.22 41.91 0)
+			(uuid "55a9eca3-8a13-40ab-bcfe-90569340a9d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TDM26268"
+				(path "/cf7bc5a8-9ab1-40a3-8a09-0f5b8db0a730"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 31.75)
+		(size 29.21 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e5ec7a97-65f3-4cf5-a978-d26c2c476f3e")
+		(property "Sheetname" "ETH"
+			(at 45.72 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETH.kicad_sch"
+			(at 45.72 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CH390_INT" input
+			(at 74.93 46.99 0)
+			(uuid "8abdc77a-42be-4c8e-a27e-7c775444293a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH390_MISO" input
+			(at 74.93 41.91 0)
+			(uuid "2849d884-3c90-4493-b443-14c1b3ad4bb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CH390_MOSI" input
+			(at 74.93 44.45 0)
+			(uuid "928cc246-97e9-4e6f-ba1b-f5b9576a7b03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 74.93 39.37 0)
+			(uuid "f57351d8-bd46-470a-9121-0fdc88ff0259")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCS" input
+			(at 74.93 36.83 0)
+			(uuid "d59f8294-deba-421e-9d1b-5e4c8069bffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "TDM26268"
+				(path "/cf7bc5a8-9ab1-40a3-8a09-0f5b8db0a730"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
